@@ -1,0 +1,10 @@
+from 1_* to 13_*
+
+Note: 
+you need to come back to 1 after 2_* (detailed in 1_*)
+
+!!!Make sure path_tab_scop_FA_continuous_uni_multi_parse_domian and path_pdb_chain_unp have the same number of PDB chains/entries;
+- 4_ and 6_1_* make changes of the file. They should be updated together of any PDB chain/entry is excluded.
+- re-run 5_* after 6_1* (path_tab_scop_FA_continuous_uni_multi_parse_domian and path_pdb_chain_unp is updated there), then re-run 6_1* and continue.
+
+path_pdb_chain_unp will be used for S2_analysis to generate the residue-level labelling for ML usage.
